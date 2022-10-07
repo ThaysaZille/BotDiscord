@@ -2,9 +2,6 @@
 A model that learns how to sort images from a dataset with multiple road signs.
 
 ![image](https://user-images.githubusercontent.com/61854138/193703647-0b0f8261-e818-43ec-8957-bab82d934350.png)
-
-<img src="https://user-images.githubusercontent.com/61854138/193703706-71c30f4f-fd82-453b-b1ba-a66f827f71cc.png" align="right"
-     alt="Img by Thaysa Zille" width="210" height="200">
      
 ## Construction
 <p align="justify" >Architecting a model is one of the most fundamental parts of starting training a **convolutional neural network**. In the project, a sequential model was used, which is basically a linear stack of layers. This model creates several layers of an image, analyzes and then compares them to obtain a result. In the sequential model there are some important parameters for its preparation, one of them is conv2D which basically creates a convolution kernel that serves as input layers that helps to produce a more organized output, the next one is Dense, it is used to classify the image based on the conv2D output. There are several other parameters, but these 2 are the most common and useful ones.
