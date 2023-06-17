@@ -1,3 +1,5 @@
+<p align="left"><img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=forestgreen&style=plastic"/></p>
+
 # Discord Bot of image classification with deep learning.
 A model that learns how to sort images from a dataset with multiple road signs.
 
